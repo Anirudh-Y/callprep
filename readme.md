@@ -19,3 +19,7 @@ fastapi dev main.py
 ## Extra options
 - The threshold cutoff value for cosine score can be changed using the threshold input and radio button
     - Values should be between 0 and 1
+ 
+## API routes
+- ```POST: /upload ``` for uploading file(s)
+- ```GET: /doc?q=<query> ``` for querying
